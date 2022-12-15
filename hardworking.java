@@ -18,5 +18,6 @@ class Main {
         long n = sc.nextLong();
         numberOfDays(n);
         System.out.println(count);
+        System.out.println("hello world");
     }
 }
