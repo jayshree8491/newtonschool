@@ -1,4 +1,3 @@
-// JavaScript source code
 import { fetchMovieAvailability, fetchMovieList } from './api.js';
 fetchMovieList().then(data => {
 	show(data);

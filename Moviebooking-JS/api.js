@@ -1,4 +1,3 @@
-// JavaScript source code
 export const database = [
 	{
 		name: '21 Jump Street',
