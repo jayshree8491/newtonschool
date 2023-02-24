@@ -3,9 +3,40 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CONFIG", "CONFIG", "{1A8B7672-5E56-438D-B47A-0519FA72965C}"
+	ProjectSection(SolutionItems) = preProject
+		StyleSheet1.css = StyleSheet1.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DIST", "DIST", "{C6527258-9CD8-4318-AED0-5A64635D82CF}"
+	ProjectSection(SolutionItems) = preProject
+		INDEX.HTML = INDEX.HTML
+		INDEX_BUNDLE.js = INDEX_BUNDLE.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SRC", "SRC", "{04711379-16C7-4A52-9E80-C9077FEDEAF3}"
+	ProjectSection(SolutionItems) = preProject
+		index.js = index.js
+		index1.html = index1.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "COMPONENTS", "COMPONENTS", "{A00E8701-C41B-4B50-B9FF-8A4B4F2D76AE}"
+	ProjectSection(SolutionItems) = preProject
+		APP.js = APP.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "STYLES", "STYLES", "{E51DC58D-197F-4C25-96C4-6951CB776800}"
+	ProjectSection(SolutionItems) = preProject
+		APP.css = APP.css
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A00E8701-C41B-4B50-B9FF-8A4B4F2D76AE} = {04711379-16C7-4A52-9E80-C9077FEDEAF3}
+		{E51DC58D-197F-4C25-96C4-6951CB776800} = {04711379-16C7-4A52-9E80-C9077FEDEAF3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C6E5FE3D-6D76-4170-A58B-44DB51221932}
